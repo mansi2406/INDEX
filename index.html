@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's Menu</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #004080;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: red;
+    margin: 30px 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+    color: #d32f2f;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Domino's Logo" class="logo">
+            <ul>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">Gift Card</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="order-btn">Order Online</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>DOMINO'S MENU</h1>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="veg-pizza.jpg" alt="Veg Pizza">
+                <h2>VEG PIZZA</h2>
+                <p>A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas.</p>
+            </div>
+            <div class="menu-item">
+                <img src="nonveg-pizza.jpg" alt="Non-Veg Pizza">
+                <h2>NON-VEG PIZZA</h2>
+                <p>Choose your favourite non-veg pizzas with your choice of crusts & toppings.</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza-mania.jpg" alt="Pizza Mania">
+                <h2>PIZZA MANIA</h2>
+                <p>Indulge into mouth-watering taste of Pizza mania range, perfect for your food cravings.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
